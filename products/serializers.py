@@ -11,6 +11,10 @@ class ProductImageSerializer(serializers.ModelSerializer):
         fields = ['id', 'image_url', 'alt_text', 'is_primary', 'order']
     
     def get_image_url(self, obj):
+        # Use direct URL field if available
+        if obj.image_url:
+            return obj.image_url
+        # Fall back to uploaded file
         if obj.image:
             request = self.context.get('request')
             if request:

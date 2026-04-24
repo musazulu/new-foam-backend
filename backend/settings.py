@@ -40,8 +40,6 @@ INSTALLED_APPS = [
     'django_filters',
     'phonenumber_field',
     'storages',
-    'cloudinary',
-    'cloudinary_storage',
     'drf_yasg',
     'accounts',
     'products',
@@ -126,8 +124,9 @@ STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-# Media files — use Cloudinary in production if configured
+# Media files
 USE_CLOUDINARY = env.bool('USE_CLOUDINARY', default=False)
+USE_S3 = env.bool('USE_S3', default=False)
 
 if USE_CLOUDINARY:
     import cloudinary

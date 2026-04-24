@@ -6,12 +6,13 @@ from .models import Category, Product, ProductImage, ProductReview, ProductLike
 class ProductImageInline(admin.TabularInline):
     model = ProductImage
     extra = 3
-    fields = ['image', 'image_preview', 'alt_text', 'is_primary', 'order']
+    fields = ['image_url', 'image', 'image_preview', 'alt_text', 'is_primary', 'order']
     readonly_fields = ['image_preview']
 
     def image_preview(self, obj):
-        if obj.image:
-            return format_html('<img src="{}" style="height:60px; border-radius:4px;" />', obj.image.url)
+        url = obj.image_url or (obj.image.url if obj.image else None)
+        if url:
+            return format_html('<img src="{}" style="height:60px; border-radius:4px;" />', url)
         return "No image"
     image_preview.short_description = "Preview"
 
