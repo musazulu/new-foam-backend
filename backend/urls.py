@@ -1,16 +1,16 @@
 # backend/urls.py
 from django.contrib import admin
 from django.urls import path, include
-
-# Customize admin site
-admin.site.site_header = "BeddingZim Admin"
-admin.site.site_title = "BeddingZim"
-admin.site.index_title = "Welcome to BeddingZim Dashboard"
+from django.http import JsonResponse
 from django.conf import settings
 from django.conf.urls.static import static
 from rest_framework import permissions
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
+
+admin.site.site_header = "BeddingZim Admin"
+admin.site.site_title = "BeddingZim"
+admin.site.index_title = "Welcome to BeddingZim Dashboard"
 
 schema_view = get_schema_view(
     openapi.Info(
@@ -23,11 +23,15 @@ schema_view = get_schema_view(
     permission_classes=[permissions.AllowAny],
 )
 
+def health_check(request):
+    return JsonResponse({'status': 'ok', 'message': 'BeddingZim API is running'})
+
 urlpatterns = [
+    path('', health_check, name='health-check'),
     path('admin/', admin.site.urls),
     path('api/', include([
         path('', include('accounts.urls')),
-        path('', include('products.urls')),  # ✅ Remove 'products/' prefix
+        path('', include('products.urls')),
         path('orders/', include('orders.urls')),
         path('payments/', include('payments.urls')),
         path('dashboard/', include('dashboard.urls')),
