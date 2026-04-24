@@ -1,692 +1,692 @@
-[
-{
-  "model": "products.category",
-  "pk": 1,
-  "fields": {
-    "name": "Bed",
-    "slug": "bed",
-    "description": "very good product",
-    "image": "categories/8U3A2387.jpg",
-    "parent": 1,
-    "is_active": true,
-    "created_at": "2025-12-30T13:44:19.928Z",
-    "updated_at": "2026-01-06T13:51:52.208Z"
-  }
-},
-{
-  "model": "products.category",
-  "pk": 2,
-  "fields": {
-    "name": "Mattresses",
-    "slug": "mattresses",
-    "description": "very nice products",
-    "image": "",
-    "parent": null,
-    "is_active": true,
-    "created_at": "2025-12-30T13:45:16.003Z",
-    "updated_at": "2025-12-30T13:45:16.003Z"
-  }
-},
-{
-  "model": "products.category",
-  "pk": 3,
-  "fields": {
-    "name": "Headboard",
-    "slug": "headboard",
-    "description": "",
-    "image": "",
-    "parent": null,
-    "is_active": true,
-    "created_at": "2025-12-30T14:24:07.658Z",
-    "updated_at": "2025-12-30T14:24:07.658Z"
-  }
-},
-{
-  "model": "products.category",
-  "pk": 4,
-  "fields": {
-    "name": "Lounge Suite",
-    "slug": "lounge-suite",
-    "description": "",
-    "image": "",
-    "parent": null,
-    "is_active": true,
-    "created_at": "2025-12-30T14:24:45.424Z",
-    "updated_at": "2025-12-30T14:24:45.424Z"
-  }
-},
-{
-  "model": "products.category",
-  "pk": 5,
-  "fields": {
-    "name": "Pillows",
-    "slug": "pillows",
-    "description": "normal size",
-    "image": "",
-    "parent": null,
-    "is_active": true,
-    "created_at": "2025-12-30T16:05:44.046Z",
-    "updated_at": "2025-12-30T16:05:44.046Z"
-  }
-},
-{
-  "model": "products.product",
-  "pk": "16891aa9-d667-4462-a7f0-f41094997e3a",
-  "fields": {
-    "name": "kings Bed",
-    "slug": "kings-bed",
-    "description": "A king-size bed offers generous sleeping space and superior comfort, making it ideal for couples or anyone who enjoys extra room to stretch out. Designed for both style and support, it provides a sturdy frame and ample surface area for a restful night’s sleep, while enhancing the overall look and luxury of the bedroom.",
-    "short_description": "",
-    "price_usd": "320.00",
-    "price_zwl": null,
-    "discount_percentage": 0,
-    "sku": "006",
-    "stock_quantity": 1,
-    "low_stock_threshold": 10,
-    "is_in_stock": true,
-    "is_featured": false,
-    "is_sponsored": true,
-    "category": 1,
-    "size": "king",
-    "material": "bamboo",
-    "color": "Blue",
-    "dimensions": "200cm x 150cm x 30cm",
-    "weight": "15.00",
-    "average_rating": "2.00",
-    "total_ratings": 1,
-    "total_likes": 0,
-    "total_sold": 0,
-    "created_at": "2026-01-10T05:03:15.811Z",
-    "updated_at": "2026-04-23T14:38:44.918Z",
-    "published_at": null
-  }
-},
-{
-  "model": "products.product",
-  "pk": "190721b2-fddb-432f-aaf5-c49027e76c84",
-  "fields": {
-    "name": "Lounge Suite",
-    "slug": "lounge-suite2",
-    "description": "A lounge suite is a coordinated set of upholstered seating furniture designed for comfort and style in a living room. It typically includes sofas and chairs that provide relaxed seating while enhancing the overall look and feel of the space.",
-    "short_description": "",
-    "price_usd": "150.00",
-    "price_zwl": null,
-    "discount_percentage": 0,
-    "sku": "013",
-    "stock_quantity": 2,
-    "low_stock_threshold": 10,
-    "is_in_stock": true,
-    "is_featured": false,
-    "is_sponsored": true,
-    "category": 4,
-    "size": "single",
-    "material": "polyester",
-    "color": "white",
-    "dimensions": "200cm x 150cm x 30cm",
-    "weight": "12.00",
-    "average_rating": "0.00",
-    "total_ratings": 0,
-    "total_likes": 0,
-    "total_sold": 0,
-    "created_at": "2026-01-10T05:17:44.133Z",
-    "updated_at": "2026-01-10T05:17:44.133Z",
-    "published_at": null
-  }
-},
-{
-  "model": "products.product",
-  "pk": "4b799805-58af-4ccb-8140-9685bae951a2",
-  "fields": {
-    "name": "Headboard2",
-    "slug": "headboard2",
-    "description": "A headboard is the upright panel or structure attached to the head of a bed. It can be made from wood, metal, upholstered fabric, or other materials, and serves both functional and decorative purposes—providing back support when sitting up in bed, preventing pillows from slipping off, and enhancing the bedroom’s style. Headboards come in a wide range of designs, from minimalist and modern to ornate and traditional.",
-    "short_description": "",
-    "price_usd": "170.00",
-    "price_zwl": null,
-    "discount_percentage": 0,
-    "sku": "014",
-    "stock_quantity": 2,
-    "low_stock_threshold": 10,
-    "is_in_stock": true,
-    "is_featured": false,
-    "is_sponsored": true,
-    "category": 3,
-    "size": "single",
-    "material": "polyester",
-    "color": "white",
-    "dimensions": "200cm x 150cm x 30cm",
-    "weight": "10.00",
-    "average_rating": "0.00",
-    "total_ratings": 0,
-    "total_likes": 0,
-    "total_sold": 0,
-    "created_at": "2026-01-10T05:20:23.230Z",
-    "updated_at": "2026-01-10T05:20:23.230Z",
-    "published_at": null
-  }
-},
-{
-  "model": "products.product",
-  "pk": "5f3bc1e8-33f7-489b-bc35-4e8aa7d869b6",
-  "fields": {
-    "name": "Headboard",
-    "slug": "headboard",
-    "description": "good",
-    "short_description": "",
-    "price_usd": "130.00",
-    "price_zwl": null,
-    "discount_percentage": 0,
-    "sku": "007",
-    "stock_quantity": 3,
-    "low_stock_threshold": 10,
-    "is_in_stock": true,
-    "is_featured": false,
-    "is_sponsored": true,
-    "category": 3,
-    "size": "single",
-    "material": "silk",
-    "color": "white",
-    "dimensions": "200cm x 150cm x 30cm",
-    "weight": "13.00",
-    "average_rating": "0.00",
-    "total_ratings": 0,
-    "total_likes": 0,
-    "total_sold": 0,
-    "created_at": "2026-01-07T04:54:20.335Z",
-    "updated_at": "2026-01-07T04:54:20.335Z",
-    "published_at": null
-  }
-},
-{
-  "model": "products.product",
-  "pk": "681b89ea-8af5-4800-9ecf-38e307aff3de",
-  "fields": {
-    "name": "Lounge Suite",
-    "slug": "lounge-suite",
-    "description": "smart",
-    "short_description": "",
-    "price_usd": "120.00",
-    "price_zwl": null,
-    "discount_percentage": 0,
-    "sku": "009",
-    "stock_quantity": 0,
-    "low_stock_threshold": 10,
-    "is_in_stock": true,
-    "is_featured": false,
-    "is_sponsored": true,
-    "category": 4,
-    "size": "single",
-    "material": "microfiber",
-    "color": "white",
-    "dimensions": "200cm x 150cm x 30cm",
-    "weight": "23.00",
-    "average_rating": "0.00",
-    "total_ratings": 0,
-    "total_likes": 0,
-    "total_sold": 0,
-    "created_at": "2026-01-07T04:57:23.834Z",
-    "updated_at": "2026-01-07T04:57:23.834Z",
-    "published_at": null
-  }
-},
-{
-  "model": "products.product",
-  "pk": "78e22bae-047e-4861-93fb-068c0dd02a73",
-  "fields": {
-    "name": "3/4 bed",
-    "slug": "34-bed",
-    "description": "foam rubber and spring",
-    "short_description": "foam rubber and spring",
-    "price_usd": "130.00",
-    "price_zwl": null,
-    "discount_percentage": 0,
-    "sku": "003",
-    "stock_quantity": 0,
-    "low_stock_threshold": 10,
-    "is_in_stock": true,
-    "is_featured": true,
-    "is_sponsored": false,
-    "category": 1,
-    "size": "single",
-    "material": "polyester",
-    "color": "grey",
-    "dimensions": "200cm x 150cm x 30cm",
-    "weight": "10.00",
-    "average_rating": "1.00",
-    "total_ratings": 1,
-    "total_likes": 0,
-    "total_sold": 0,
-    "created_at": "2025-12-30T16:23:49.909Z",
-    "updated_at": "2026-04-23T14:36:57.740Z",
-    "published_at": null
-  }
-},
-{
-  "model": "products.product",
-  "pk": "8de96491-559e-4581-9d05-1f800837a57d",
-  "fields": {
-    "name": "Pillows",
-    "slug": "pillows2",
-    "description": "Pillows are soft cushions designed to support the head, neck, and shoulders during sleep or rest. They enhance comfort, promote proper sleeping posture, and come in various sizes, fillings, and firmness levels to suit individual preferences.",
-    "short_description": "",
-    "price_usd": "25.00",
-    "price_zwl": null,
-    "discount_percentage": 0,
-    "sku": "010",
-    "stock_quantity": 12,
-    "low_stock_threshold": 10,
-    "is_in_stock": true,
-    "is_featured": true,
-    "is_sponsored": false,
-    "category": 5,
-    "size": "single",
-    "material": "cotton",
-    "color": "red",
-    "dimensions": "200cm*150*30",
-    "weight": "2.00",
-    "average_rating": "0.00",
-    "total_ratings": 0,
-    "total_likes": 0,
-    "total_sold": 0,
-    "created_at": "2026-01-10T05:12:32.311Z",
-    "updated_at": "2026-01-10T05:14:08.017Z",
-    "published_at": null
-  }
-},
-{
-  "model": "products.product",
-  "pk": "92a2caa7-05ca-4cb6-9278-429e4868672c",
-  "fields": {
-    "name": "School Mattress",
-    "slug": "school-mattress",
-    "description": "A school mattress is a durable, easy-to-clean sleeping pad typically used in boarding schools, dormitories, or nap rooms. Designed for frequent use and hygiene, it’s often made with firm, supportive foam or innerspring cores and covered in waterproof or antimicrobial fabric to meet health and safety standards.",
-    "short_description": "",
-    "price_usd": "25.00",
-    "price_zwl": null,
-    "discount_percentage": 0,
-    "sku": "016",
-    "stock_quantity": 20,
-    "low_stock_threshold": 10,
-    "is_in_stock": true,
-    "is_featured": false,
-    "is_sponsored": true,
-    "category": 2,
-    "size": "single",
-    "material": "cotton",
-    "color": "Blue",
-    "dimensions": "200cm*150*30",
-    "weight": "2.00",
-    "average_rating": "0.00",
-    "total_ratings": 0,
-    "total_likes": 0,
-    "total_sold": 0,
-    "created_at": "2026-01-10T05:24:36.718Z",
-    "updated_at": "2026-01-10T05:24:36.718Z",
-    "published_at": null
-  }
-},
-{
-  "model": "products.product",
-  "pk": "b4d445e6-72e3-4060-a877-12715ba35e85",
-  "fields": {
-    "name": "Double Bed",
-    "slug": "double-bed",
-    "description": "softness",
-    "short_description": "",
-    "price_usd": "170.00",
-    "price_zwl": "6800.00",
-    "discount_percentage": 0,
-    "sku": "001",
-    "stock_quantity": 0,
-    "low_stock_threshold": 10,
-    "is_in_stock": true,
-    "is_featured": true,
-    "is_sponsored": false,
-    "category": 1,
-    "size": "double",
-    "material": "polyester",
-    "color": "Blue",
-    "dimensions": "200cm*150*30",
-    "weight": "20.00",
-    "average_rating": "5.00",
-    "total_ratings": 1,
-    "total_likes": 0,
-    "total_sold": 0,
-    "created_at": "2025-12-30T14:04:50.744Z",
-    "updated_at": "2026-01-06T13:56:17.840Z",
-    "published_at": null
-  }
-},
-{
-  "model": "products.product",
-  "pk": "e0e0aaca-dd6f-40ad-b44e-39aa3921258e",
-  "fields": {
-    "name": "single bed2",
-    "slug": "single-bed2",
-    "description": "A single bed is a compact, space-saving bed designed to comfortably accommodate one person. It is ideal for children’s rooms, guest rooms, hostels, and small bedrooms. Single beds are easy to move, fit well in limited spaces, and are available in various styles, materials, and mattress types to suit different comfort and décor preferences.",
-    "short_description": "foam and spring",
-    "price_usd": "130.00",
-    "price_zwl": null,
-    "discount_percentage": 0,
-    "sku": "012",
-    "stock_quantity": 4,
-    "low_stock_threshold": 10,
-    "is_in_stock": true,
-    "is_featured": true,
-    "is_sponsored": false,
-    "category": 1,
-    "size": "single",
-    "material": "bamboo",
-    "color": "Blue",
-    "dimensions": "200cm x 150cm x 30cm",
-    "weight": "10.00",
-    "average_rating": "0.00",
-    "total_ratings": 0,
-    "total_likes": 0,
-    "total_sold": 0,
-    "created_at": "2026-01-10T05:10:23.739Z",
-    "updated_at": "2026-01-10T05:22:06.643Z",
-    "published_at": null
-  }
-},
-{
-  "model": "products.product",
-  "pk": "f691153a-06bd-433a-92ce-7d2f8e7748be",
-  "fields": {
-    "name": "pillow",
-    "slug": "pillow",
-    "description": "very soft",
-    "short_description": "",
-    "price_usd": "12.00",
-    "price_zwl": null,
-    "discount_percentage": 0,
-    "sku": "005",
-    "stock_quantity": 3,
-    "low_stock_threshold": 10,
-    "is_in_stock": true,
-    "is_featured": false,
-    "is_sponsored": true,
-    "category": 5,
-    "size": "single",
-    "material": "cotton",
-    "color": "red",
-    "dimensions": "20cm*20cm *10cm",
-    "weight": "0.40",
-    "average_rating": "0.00",
-    "total_ratings": 0,
-    "total_likes": 0,
-    "total_sold": 0,
-    "created_at": "2026-01-07T04:50:38.116Z",
-    "updated_at": "2026-01-07T04:50:38.116Z",
-    "published_at": null
-  }
-},
-{
-  "model": "products.product",
-  "pk": "f812ea10-5c01-4c10-9ed6-2744bca3ef3e",
-  "fields": {
-    "name": "MAT-SINGLE-MEMORY-01",
-    "slug": "mat-single-memory-01",
-    "description": "good",
-    "short_description": "",
-    "price_usd": "90.00",
-    "price_zwl": "3600.00",
-    "discount_percentage": 0,
-    "sku": "002",
-    "stock_quantity": 0,
-    "low_stock_threshold": 10,
-    "is_in_stock": true,
-    "is_featured": true,
-    "is_sponsored": false,
-    "category": 2,
-    "size": "single",
-    "material": "linen",
-    "color": "white",
-    "dimensions": "200cm*150*30",
-    "weight": "10.00",
-    "average_rating": "2.00",
-    "total_ratings": 1,
-    "total_likes": 0,
-    "total_sold": 0,
-    "created_at": "2025-12-30T14:07:21.259Z",
-    "updated_at": "2026-04-23T14:38:13.863Z",
-    "published_at": null
-  }
-},
-{
-  "model": "products.product",
-  "pk": "fd95131d-ebae-4b74-9b6f-c87c6e6e9ca6",
-  "fields": {
-    "name": "single bed",
-    "slug": "single-bed",
-    "description": "soft and nice",
-    "short_description": "foam and spring",
-    "price_usd": "95.00",
-    "price_zwl": null,
-    "discount_percentage": 0,
-    "sku": "004",
-    "stock_quantity": 0,
-    "low_stock_threshold": 10,
-    "is_in_stock": true,
-    "is_featured": true,
-    "is_sponsored": false,
-    "category": 1,
-    "size": "single",
-    "material": "polyester",
-    "color": "Blue",
-    "dimensions": "200cm*150*30",
-    "weight": "10.00",
-    "average_rating": "0.00",
-    "total_ratings": 0,
-    "total_likes": 0,
-    "total_sold": 0,
-    "created_at": "2025-12-30T16:15:26.820Z",
-    "updated_at": "2026-01-10T05:26:20.993Z",
-    "published_at": null
-  }
-},
-{
-  "model": "products.productimage",
-  "pk": 1,
-  "fields": {
-    "product": "b4d445e6-72e3-4060-a877-12715ba35e85",
-    "image": "products/8U3A2387.jpg",
-    "alt_text": "",
-    "is_primary": true,
-    "order": 0,
-    "created_at": "2025-12-30T14:04:50.753Z"
-  }
-},
-{
-  "model": "products.productimage",
-  "pk": 5,
-  "fields": {
-    "product": "78e22bae-047e-4861-93fb-068c0dd02a73",
-    "image": "products/8U3A2461.jpg",
-    "alt_text": "",
-    "is_primary": true,
-    "order": 0,
-    "created_at": "2026-01-06T13:54:08.207Z"
-  }
-},
-{
-  "model": "products.productimage",
-  "pk": 6,
-  "fields": {
-    "product": "f812ea10-5c01-4c10-9ed6-2744bca3ef3e",
-    "image": "products/8U3A2377.jpg",
-    "alt_text": "",
-    "is_primary": true,
-    "order": 0,
-    "created_at": "2026-01-06T13:55:33.611Z"
-  }
-},
-{
-  "model": "products.productimage",
-  "pk": 7,
-  "fields": {
-    "product": "f691153a-06bd-433a-92ce-7d2f8e7748be",
-    "image": "products/pillow.webp",
-    "alt_text": "",
-    "is_primary": false,
-    "order": 0,
-    "created_at": "2026-01-07T04:50:38.129Z"
-  }
-},
-{
-  "model": "products.productimage",
-  "pk": 8,
-  "fields": {
-    "product": "5f3bc1e8-33f7-489b-bc35-4e8aa7d869b6",
-    "image": "products/headboard-with-pillow-house-bedroom_268835-3790.jpg",
-    "alt_text": "",
-    "is_primary": false,
-    "order": 0,
-    "created_at": "2026-01-07T04:54:20.350Z"
-  }
-},
-{
-  "model": "products.productimage",
-  "pk": 9,
-  "fields": {
-    "product": "681b89ea-8af5-4800-9ecf-38e307aff3de",
-    "image": "products/sofa.avif",
-    "alt_text": "",
-    "is_primary": false,
-    "order": 0,
-    "created_at": "2026-01-07T04:57:23.844Z"
-  }
-},
-{
-  "model": "products.productimage",
-  "pk": 10,
-  "fields": {
-    "product": "8de96491-559e-4581-9d05-1f800837a57d",
-    "image": "products/pillow4_rTwdFRw.jpg",
-    "alt_text": "",
-    "is_primary": false,
-    "order": 0,
-    "created_at": "2026-01-10T05:12:32.322Z"
-  }
-},
-{
-  "model": "products.productimage",
-  "pk": 11,
-  "fields": {
-    "product": "8de96491-559e-4581-9d05-1f800837a57d",
-    "image": "products/pillow_XBOBsKz.webp",
-    "alt_text": "",
-    "is_primary": false,
-    "order": 0,
-    "created_at": "2026-01-10T05:14:08.029Z"
-  }
-},
-{
-  "model": "products.productimage",
-  "pk": 12,
-  "fields": {
-    "product": "8de96491-559e-4581-9d05-1f800837a57d",
-    "image": "products/pillow3.jpg",
-    "alt_text": "",
-    "is_primary": false,
-    "order": 0,
-    "created_at": "2026-01-10T05:14:08.033Z"
-  }
-},
-{
-  "model": "products.productimage",
-  "pk": 13,
-  "fields": {
-    "product": "8de96491-559e-4581-9d05-1f800837a57d",
-    "image": "products/pillow2.jpg",
-    "alt_text": "",
-    "is_primary": false,
-    "order": 0,
-    "created_at": "2026-01-10T05:14:08.039Z"
-  }
-},
-{
-  "model": "products.productimage",
-  "pk": 14,
-  "fields": {
-    "product": "190721b2-fddb-432f-aaf5-c49027e76c84",
-    "image": "products/8U3A2385.png",
-    "alt_text": "",
-    "is_primary": false,
-    "order": 0,
-    "created_at": "2026-01-10T05:17:44.145Z"
-  }
-},
-{
-  "model": "products.productimage",
-  "pk": 15,
-  "fields": {
-    "product": "4b799805-58af-4ccb-8140-9685bae951a2",
-    "image": "products/headboard2.png",
-    "alt_text": "",
-    "is_primary": false,
-    "order": 0,
-    "created_at": "2026-01-10T05:20:23.238Z"
-  }
-},
-{
-  "model": "products.productimage",
-  "pk": 16,
-  "fields": {
-    "product": "e0e0aaca-dd6f-40ad-b44e-39aa3921258e",
-    "image": "products/single_bed1.png",
-    "alt_text": "",
-    "is_primary": false,
-    "order": 0,
-    "created_at": "2026-01-10T05:22:06.651Z"
-  }
-},
-{
-  "model": "products.productimage",
-  "pk": 17,
-  "fields": {
-    "product": "92a2caa7-05ca-4cb6-9278-429e4868672c",
-    "image": "products/ChatGPT_Image_Jan_7_2026_04_26_35_PM.png",
-    "alt_text": "",
-    "is_primary": false,
-    "order": 0,
-    "created_at": "2026-01-10T05:24:36.727Z"
-  }
-},
-{
-  "model": "products.productimage",
-  "pk": 18,
-  "fields": {
-    "product": "92a2caa7-05ca-4cb6-9278-429e4868672c",
-    "image": "products/EcologicMattress-InvertedSeam-Mattresses-min-600x338_1.jpg",
-    "alt_text": "",
-    "is_primary": false,
-    "order": 0,
-    "created_at": "2026-01-10T05:24:36.731Z"
-  }
-},
-{
-  "model": "products.productimage",
-  "pk": 19,
-  "fields": {
-    "product": "fd95131d-ebae-4b74-9b6f-c87c6e6e9ca6",
-    "image": "products/bed.jfif",
-    "alt_text": "",
-    "is_primary": false,
-    "order": 0,
-    "created_at": "2026-01-10T05:26:21.002Z"
-  }
-},
-{
-  "model": "products.productimage",
-  "pk": 20,
-  "fields": {
-    "product": "16891aa9-d667-4462-a7f0-f41094997e3a",
-    "image": "products/kings_bed_1.png",
-    "alt_text": "",
-    "is_primary": false,
-    "order": 0,
-    "created_at": "2026-01-10T05:28:42.874Z"
-  }
-}
-]
+[
+{
+  "model": "products.category",
+  "pk": 1,
+  "fields": {
+    "name": "Bed",
+    "slug": "bed",
+    "description": "very good product",
+    "image": "categories/8U3A2387.jpg",
+    "parent": 1,
+    "is_active": true,
+    "created_at": "2025-12-30T13:44:19.928Z",
+    "updated_at": "2026-01-06T13:51:52.208Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 2,
+  "fields": {
+    "name": "Mattresses",
+    "slug": "mattresses",
+    "description": "very nice products",
+    "image": "",
+    "parent": null,
+    "is_active": true,
+    "created_at": "2025-12-30T13:45:16.003Z",
+    "updated_at": "2025-12-30T13:45:16.003Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 3,
+  "fields": {
+    "name": "Headboard",
+    "slug": "headboard",
+    "description": "",
+    "image": "",
+    "parent": null,
+    "is_active": true,
+    "created_at": "2025-12-30T14:24:07.658Z",
+    "updated_at": "2025-12-30T14:24:07.658Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 4,
+  "fields": {
+    "name": "Lounge Suite",
+    "slug": "lounge-suite",
+    "description": "",
+    "image": "",
+    "parent": null,
+    "is_active": true,
+    "created_at": "2025-12-30T14:24:45.424Z",
+    "updated_at": "2025-12-30T14:24:45.424Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 5,
+  "fields": {
+    "name": "Pillows",
+    "slug": "pillows",
+    "description": "normal size",
+    "image": "",
+    "parent": null,
+    "is_active": true,
+    "created_at": "2025-12-30T16:05:44.046Z",
+    "updated_at": "2025-12-30T16:05:44.046Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "16891aa9-d667-4462-a7f0-f41094997e3a",
+  "fields": {
+    "name": "kings Bed",
+    "slug": "kings-bed",
+    "description": "A king-size bed offers generous sleeping space and superior comfort, making it ideal for couples or anyone who enjoys extra room to stretch out. Designed for both style and support, it provides a sturdy frame and ample surface area for a restful nightï¿½s sleep, while enhancing the overall look and luxury of the bedroom.",
+    "short_description": "",
+    "price_usd": "320.00",
+    "price_zwl": null,
+    "discount_percentage": 0,
+    "sku": "006",
+    "stock_quantity": 1,
+    "low_stock_threshold": 10,
+    "is_in_stock": true,
+    "is_featured": false,
+    "is_sponsored": true,
+    "category": 1,
+    "size": "king",
+    "material": "bamboo",
+    "color": "Blue",
+    "dimensions": "200cm x 150cm x 30cm",
+    "weight": "15.00",
+    "average_rating": "2.00",
+    "total_ratings": 1,
+    "total_likes": 0,
+    "total_sold": 0,
+    "created_at": "2026-01-10T05:03:15.811Z",
+    "updated_at": "2026-04-23T14:38:44.918Z",
+    "published_at": null
+  }
+},
+{
+  "model": "products.product",
+  "pk": "190721b2-fddb-432f-aaf5-c49027e76c84",
+  "fields": {
+    "name": "Lounge Suite",
+    "slug": "lounge-suite2",
+    "description": "A lounge suite is a coordinated set of upholstered seating furniture designed for comfort and style in a living room. It typically includes sofas and chairs that provide relaxed seating while enhancing the overall look and feel of the space.",
+    "short_description": "",
+    "price_usd": "150.00",
+    "price_zwl": null,
+    "discount_percentage": 0,
+    "sku": "013",
+    "stock_quantity": 2,
+    "low_stock_threshold": 10,
+    "is_in_stock": true,
+    "is_featured": false,
+    "is_sponsored": true,
+    "category": 4,
+    "size": "single",
+    "material": "polyester",
+    "color": "white",
+    "dimensions": "200cm x 150cm x 30cm",
+    "weight": "12.00",
+    "average_rating": "0.00",
+    "total_ratings": 0,
+    "total_likes": 0,
+    "total_sold": 0,
+    "created_at": "2026-01-10T05:17:44.133Z",
+    "updated_at": "2026-01-10T05:17:44.133Z",
+    "published_at": null
+  }
+},
+{
+  "model": "products.product",
+  "pk": "4b799805-58af-4ccb-8140-9685bae951a2",
+  "fields": {
+    "name": "Headboard2",
+    "slug": "headboard2",
+    "description": "A headboard is the upright panel or structure attached to the head of a bed. It can be made from wood, metal, upholstered fabric, or other materials, and serves both functional and decorative purposesï¿½providing back support when sitting up in bed, preventing pillows from slipping off, and enhancing the bedroomï¿½s style. Headboards come in a wide range of designs, from minimalist and modern to ornate and traditional.",
+    "short_description": "",
+    "price_usd": "170.00",
+    "price_zwl": null,
+    "discount_percentage": 0,
+    "sku": "014",
+    "stock_quantity": 2,
+    "low_stock_threshold": 10,
+    "is_in_stock": true,
+    "is_featured": false,
+    "is_sponsored": true,
+    "category": 3,
+    "size": "single",
+    "material": "polyester",
+    "color": "white",
+    "dimensions": "200cm x 150cm x 30cm",
+    "weight": "10.00",
+    "average_rating": "0.00",
+    "total_ratings": 0,
+    "total_likes": 0,
+    "total_sold": 0,
+    "created_at": "2026-01-10T05:20:23.230Z",
+    "updated_at": "2026-01-10T05:20:23.230Z",
+    "published_at": null
+  }
+},
+{
+  "model": "products.product",
+  "pk": "5f3bc1e8-33f7-489b-bc35-4e8aa7d869b6",
+  "fields": {
+    "name": "Headboard",
+    "slug": "headboard",
+    "description": "good",
+    "short_description": "",
+    "price_usd": "130.00",
+    "price_zwl": null,
+    "discount_percentage": 0,
+    "sku": "007",
+    "stock_quantity": 3,
+    "low_stock_threshold": 10,
+    "is_in_stock": true,
+    "is_featured": false,
+    "is_sponsored": true,
+    "category": 3,
+    "size": "single",
+    "material": "silk",
+    "color": "white",
+    "dimensions": "200cm x 150cm x 30cm",
+    "weight": "13.00",
+    "average_rating": "0.00",
+    "total_ratings": 0,
+    "total_likes": 0,
+    "total_sold": 0,
+    "created_at": "2026-01-07T04:54:20.335Z",
+    "updated_at": "2026-01-07T04:54:20.335Z",
+    "published_at": null
+  }
+},
+{
+  "model": "products.product",
+  "pk": "681b89ea-8af5-4800-9ecf-38e307aff3de",
+  "fields": {
+    "name": "Lounge Suite",
+    "slug": "lounge-suite",
+    "description": "smart",
+    "short_description": "",
+    "price_usd": "120.00",
+    "price_zwl": null,
+    "discount_percentage": 0,
+    "sku": "009",
+    "stock_quantity": 0,
+    "low_stock_threshold": 10,
+    "is_in_stock": true,
+    "is_featured": false,
+    "is_sponsored": true,
+    "category": 4,
+    "size": "single",
+    "material": "microfiber",
+    "color": "white",
+    "dimensions": "200cm x 150cm x 30cm",
+    "weight": "23.00",
+    "average_rating": "0.00",
+    "total_ratings": 0,
+    "total_likes": 0,
+    "total_sold": 0,
+    "created_at": "2026-01-07T04:57:23.834Z",
+    "updated_at": "2026-01-07T04:57:23.834Z",
+    "published_at": null
+  }
+},
+{
+  "model": "products.product",
+  "pk": "78e22bae-047e-4861-93fb-068c0dd02a73",
+  "fields": {
+    "name": "3/4 bed",
+    "slug": "34-bed",
+    "description": "foam rubber and spring",
+    "short_description": "foam rubber and spring",
+    "price_usd": "130.00",
+    "price_zwl": null,
+    "discount_percentage": 0,
+    "sku": "003",
+    "stock_quantity": 0,
+    "low_stock_threshold": 10,
+    "is_in_stock": true,
+    "is_featured": true,
+    "is_sponsored": false,
+    "category": 1,
+    "size": "single",
+    "material": "polyester",
+    "color": "grey",
+    "dimensions": "200cm x 150cm x 30cm",
+    "weight": "10.00",
+    "average_rating": "1.00",
+    "total_ratings": 1,
+    "total_likes": 0,
+    "total_sold": 0,
+    "created_at": "2025-12-30T16:23:49.909Z",
+    "updated_at": "2026-04-23T14:36:57.740Z",
+    "published_at": null
+  }
+},
+{
+  "model": "products.product",
+  "pk": "8de96491-559e-4581-9d05-1f800837a57d",
+  "fields": {
+    "name": "Pillows",
+    "slug": "pillows2",
+    "description": "Pillows are soft cushions designed to support the head, neck, and shoulders during sleep or rest. They enhance comfort, promote proper sleeping posture, and come in various sizes, fillings, and firmness levels to suit individual preferences.",
+    "short_description": "",
+    "price_usd": "25.00",
+    "price_zwl": null,
+    "discount_percentage": 0,
+    "sku": "010",
+    "stock_quantity": 12,
+    "low_stock_threshold": 10,
+    "is_in_stock": true,
+    "is_featured": true,
+    "is_sponsored": false,
+    "category": 5,
+    "size": "single",
+    "material": "cotton",
+    "color": "red",
+    "dimensions": "200cm*150*30",
+    "weight": "2.00",
+    "average_rating": "0.00",
+    "total_ratings": 0,
+    "total_likes": 0,
+    "total_sold": 0,
+    "created_at": "2026-01-10T05:12:32.311Z",
+    "updated_at": "2026-01-10T05:14:08.017Z",
+    "published_at": null
+  }
+},
+{
+  "model": "products.product",
+  "pk": "92a2caa7-05ca-4cb6-9278-429e4868672c",
+  "fields": {
+    "name": "School Mattress",
+    "slug": "school-mattress",
+    "description": "A school mattress is a durable, easy-to-clean sleeping pad typically used in boarding schools, dormitories, or nap rooms. Designed for frequent use and hygiene, itï¿½s often made with firm, supportive foam or innerspring cores and covered in waterproof or antimicrobial fabric to meet health and safety standards.",
+    "short_description": "",
+    "price_usd": "25.00",
+    "price_zwl": null,
+    "discount_percentage": 0,
+    "sku": "016",
+    "stock_quantity": 20,
+    "low_stock_threshold": 10,
+    "is_in_stock": true,
+    "is_featured": false,
+    "is_sponsored": true,
+    "category": 2,
+    "size": "single",
+    "material": "cotton",
+    "color": "Blue",
+    "dimensions": "200cm*150*30",
+    "weight": "2.00",
+    "average_rating": "0.00",
+    "total_ratings": 0,
+    "total_likes": 0,
+    "total_sold": 0,
+    "created_at": "2026-01-10T05:24:36.718Z",
+    "updated_at": "2026-01-10T05:24:36.718Z",
+    "published_at": null
+  }
+},
+{
+  "model": "products.product",
+  "pk": "b4d445e6-72e3-4060-a877-12715ba35e85",
+  "fields": {
+    "name": "Double Bed",
+    "slug": "double-bed",
+    "description": "softness",
+    "short_description": "",
+    "price_usd": "170.00",
+    "price_zwl": "6800.00",
+    "discount_percentage": 0,
+    "sku": "001",
+    "stock_quantity": 0,
+    "low_stock_threshold": 10,
+    "is_in_stock": true,
+    "is_featured": true,
+    "is_sponsored": false,
+    "category": 1,
+    "size": "double",
+    "material": "polyester",
+    "color": "Blue",
+    "dimensions": "200cm*150*30",
+    "weight": "20.00",
+    "average_rating": "5.00",
+    "total_ratings": 1,
+    "total_likes": 0,
+    "total_sold": 0,
+    "created_at": "2025-12-30T14:04:50.744Z",
+    "updated_at": "2026-01-06T13:56:17.840Z",
+    "published_at": null
+  }
+},
+{
+  "model": "products.product",
+  "pk": "e0e0aaca-dd6f-40ad-b44e-39aa3921258e",
+  "fields": {
+    "name": "single bed2",
+    "slug": "single-bed2",
+    "description": "A single bed is a compact, space-saving bed designed to comfortably accommodate one person. It is ideal for childrenï¿½s rooms, guest rooms, hostels, and small bedrooms. Single beds are easy to move, fit well in limited spaces, and are available in various styles, materials, and mattress types to suit different comfort and dï¿½cor preferences.",
+    "short_description": "foam and spring",
+    "price_usd": "130.00",
+    "price_zwl": null,
+    "discount_percentage": 0,
+    "sku": "012",
+    "stock_quantity": 4,
+    "low_stock_threshold": 10,
+    "is_in_stock": true,
+    "is_featured": true,
+    "is_sponsored": false,
+    "category": 1,
+    "size": "single",
+    "material": "bamboo",
+    "color": "Blue",
+    "dimensions": "200cm x 150cm x 30cm",
+    "weight": "10.00",
+    "average_rating": "0.00",
+    "total_ratings": 0,
+    "total_likes": 0,
+    "total_sold": 0,
+    "created_at": "2026-01-10T05:10:23.739Z",
+    "updated_at": "2026-01-10T05:22:06.643Z",
+    "published_at": null
+  }
+},
+{
+  "model": "products.product",
+  "pk": "f691153a-06bd-433a-92ce-7d2f8e7748be",
+  "fields": {
+    "name": "pillow",
+    "slug": "pillow",
+    "description": "very soft",
+    "short_description": "",
+    "price_usd": "12.00",
+    "price_zwl": null,
+    "discount_percentage": 0,
+    "sku": "005",
+    "stock_quantity": 3,
+    "low_stock_threshold": 10,
+    "is_in_stock": true,
+    "is_featured": false,
+    "is_sponsored": true,
+    "category": 5,
+    "size": "single",
+    "material": "cotton",
+    "color": "red",
+    "dimensions": "20cm*20cm *10cm",
+    "weight": "0.40",
+    "average_rating": "0.00",
+    "total_ratings": 0,
+    "total_likes": 0,
+    "total_sold": 0,
+    "created_at": "2026-01-07T04:50:38.116Z",
+    "updated_at": "2026-01-07T04:50:38.116Z",
+    "published_at": null
+  }
+},
+{
+  "model": "products.product",
+  "pk": "f812ea10-5c01-4c10-9ed6-2744bca3ef3e",
+  "fields": {
+    "name": "MAT-SINGLE-MEMORY-01",
+    "slug": "mat-single-memory-01",
+    "description": "good",
+    "short_description": "",
+    "price_usd": "90.00",
+    "price_zwl": "3600.00",
+    "discount_percentage": 0,
+    "sku": "002",
+    "stock_quantity": 0,
+    "low_stock_threshold": 10,
+    "is_in_stock": true,
+    "is_featured": true,
+    "is_sponsored": false,
+    "category": 2,
+    "size": "single",
+    "material": "linen",
+    "color": "white",
+    "dimensions": "200cm*150*30",
+    "weight": "10.00",
+    "average_rating": "2.00",
+    "total_ratings": 1,
+    "total_likes": 0,
+    "total_sold": 0,
+    "created_at": "2025-12-30T14:07:21.259Z",
+    "updated_at": "2026-04-23T14:38:13.863Z",
+    "published_at": null
+  }
+},
+{
+  "model": "products.product",
+  "pk": "fd95131d-ebae-4b74-9b6f-c87c6e6e9ca6",
+  "fields": {
+    "name": "single bed",
+    "slug": "single-bed",
+    "description": "soft and nice",
+    "short_description": "foam and spring",
+    "price_usd": "95.00",
+    "price_zwl": null,
+    "discount_percentage": 0,
+    "sku": "004",
+    "stock_quantity": 0,
+    "low_stock_threshold": 10,
+    "is_in_stock": true,
+    "is_featured": true,
+    "is_sponsored": false,
+    "category": 1,
+    "size": "single",
+    "material": "polyester",
+    "color": "Blue",
+    "dimensions": "200cm*150*30",
+    "weight": "10.00",
+    "average_rating": "0.00",
+    "total_ratings": 0,
+    "total_likes": 0,
+    "total_sold": 0,
+    "created_at": "2025-12-30T16:15:26.820Z",
+    "updated_at": "2026-01-10T05:26:20.993Z",
+    "published_at": null
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 1,
+  "fields": {
+    "product": "b4d445e6-72e3-4060-a877-12715ba35e85",
+    "image": "products/8U3A2387.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0,
+    "created_at": "2025-12-30T14:04:50.753Z"
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 5,
+  "fields": {
+    "product": "78e22bae-047e-4861-93fb-068c0dd02a73",
+    "image": "products/8U3A2461.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0,
+    "created_at": "2026-01-06T13:54:08.207Z"
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 6,
+  "fields": {
+    "product": "f812ea10-5c01-4c10-9ed6-2744bca3ef3e",
+    "image": "products/8U3A2377.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0,
+    "created_at": "2026-01-06T13:55:33.611Z"
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 7,
+  "fields": {
+    "product": "f691153a-06bd-433a-92ce-7d2f8e7748be",
+    "image": "products/pillow.webp",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 0,
+    "created_at": "2026-01-07T04:50:38.129Z"
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 8,
+  "fields": {
+    "product": "5f3bc1e8-33f7-489b-bc35-4e8aa7d869b6",
+    "image": "products/headboard-with-pillow-house-bedroom_268835-3790.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 0,
+    "created_at": "2026-01-07T04:54:20.350Z"
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 9,
+  "fields": {
+    "product": "681b89ea-8af5-4800-9ecf-38e307aff3de",
+    "image": "products/sofa.avif",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 0,
+    "created_at": "2026-01-07T04:57:23.844Z"
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 10,
+  "fields": {
+    "product": "8de96491-559e-4581-9d05-1f800837a57d",
+    "image": "products/pillow4_rTwdFRw.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 0,
+    "created_at": "2026-01-10T05:12:32.322Z"
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 11,
+  "fields": {
+    "product": "8de96491-559e-4581-9d05-1f800837a57d",
+    "image": "products/pillow_XBOBsKz.webp",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 0,
+    "created_at": "2026-01-10T05:14:08.029Z"
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 12,
+  "fields": {
+    "product": "8de96491-559e-4581-9d05-1f800837a57d",
+    "image": "products/pillow3.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 0,
+    "created_at": "2026-01-10T05:14:08.033Z"
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 13,
+  "fields": {
+    "product": "8de96491-559e-4581-9d05-1f800837a57d",
+    "image": "products/pillow2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 0,
+    "created_at": "2026-01-10T05:14:08.039Z"
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 14,
+  "fields": {
+    "product": "190721b2-fddb-432f-aaf5-c49027e76c84",
+    "image": "products/8U3A2385.png",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 0,
+    "created_at": "2026-01-10T05:17:44.145Z"
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 15,
+  "fields": {
+    "product": "4b799805-58af-4ccb-8140-9685bae951a2",
+    "image": "products/headboard2.png",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 0,
+    "created_at": "2026-01-10T05:20:23.238Z"
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 16,
+  "fields": {
+    "product": "e0e0aaca-dd6f-40ad-b44e-39aa3921258e",
+    "image": "products/single_bed1.png",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 0,
+    "created_at": "2026-01-10T05:22:06.651Z"
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 17,
+  "fields": {
+    "product": "92a2caa7-05ca-4cb6-9278-429e4868672c",
+    "image": "products/ChatGPT_Image_Jan_7_2026_04_26_35_PM.png",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 0,
+    "created_at": "2026-01-10T05:24:36.727Z"
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 18,
+  "fields": {
+    "product": "92a2caa7-05ca-4cb6-9278-429e4868672c",
+    "image": "products/EcologicMattress-InvertedSeam-Mattresses-min-600x338_1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 0,
+    "created_at": "2026-01-10T05:24:36.731Z"
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 19,
+  "fields": {
+    "product": "fd95131d-ebae-4b74-9b6f-c87c6e6e9ca6",
+    "image": "products/bed.jfif",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 0,
+    "created_at": "2026-01-10T05:26:21.002Z"
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 20,
+  "fields": {
+    "product": "16891aa9-d667-4462-a7f0-f41094997e3a",
+    "image": "products/kings_bed_1.png",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 0,
+    "created_at": "2026-01-10T05:28:42.874Z"
+  }
+}
+]
