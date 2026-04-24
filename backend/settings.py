@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django_filters',
     'phonenumber_field',
     'storages',
+    'cloudinary',
+    'cloudinary_storage',
     'drf_yasg',
     'accounts',
     'products',
@@ -124,10 +126,19 @@ STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-# Media files — use AWS S3 in production if configured
-USE_S3 = env.bool('USE_S3', default=False)
+# Media files — use Cloudinary in production if configured
+USE_CLOUDINARY = env.bool('USE_CLOUDINARY', default=False)
 
-if USE_S3:
+if USE_CLOUDINARY:
+    import cloudinary
+    cloudinary.config(
+        cloud_name=env('CLOUDINARY_CLOUD_NAME'),
+        api_key=env('CLOUDINARY_API_KEY'),
+        api_secret=env('CLOUDINARY_API_SECRET'),
+    )
+    DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+    MEDIA_URL = '/media/'
+elif USE_S3:
     AWS_ACCESS_KEY_ID = env('AWS_ACCESS_KEY_ID')
     AWS_SECRET_ACCESS_KEY = env('AWS_SECRET_ACCESS_KEY')
     AWS_STORAGE_BUCKET_NAME = env('AWS_STORAGE_BUCKET_NAME')
