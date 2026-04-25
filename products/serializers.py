@@ -52,15 +52,20 @@ class ProductListSerializer(serializers.ModelSerializer):
             primary_image = obj.images.filter(is_primary=True).first()
             if not primary_image:
                 primary_image = obj.images.first()
-            
-            if primary_image and primary_image.image:
-                request = self.context.get('request')
-                if request:
-                    return request.build_absolute_uri(primary_image.image.url)
-                return f"{settings.MEDIA_URL}{primary_image.image}"
+
+            if primary_image:
+                # Check URL field first
+                if primary_image.image_url:
+                    return primary_image.image_url
+                # Fall back to uploaded file
+                if primary_image.image:
+                    request = self.context.get('request')
+                    if request:
+                        return request.build_absolute_uri(primary_image.image.url)
+                    return f"{settings.MEDIA_URL}{primary_image.image}"
         except Exception as e:
             print(f"Error getting primary image: {e}")
-        
+
         return None
 
 class ProductDetailSerializer(ProductListSerializer):
